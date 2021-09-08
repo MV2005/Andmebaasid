@@ -1,0 +1,24 @@
+Mida meie tahame
+mida ta osta tahab, kui palju
+kontaktandmed
+tahame teada kas ta on maksnud
+
+mida klient tahab
+tooted ja laoseis
+
+product fields:nimi,kogus,hind
+product (field, attributes, properties, column)
+
+Kogus   toode        Hind       värv
+33     klaviatuuri  70eurot     must
+33     monitori     50eurot     must
+30     lauda        20eurot     pruun
+3      akent        15eurot     valge
+40     tooli        60eurot     pruun
+40     hiirt        70eurot     must
+2      prügikast     5eurot     roheline
+4      kella        10eurot     valge
+
+
+ tellimus   hind  Kliendi nimi    makseviis   tel nr   kohale toomine  aadress
+ 2x kella    20     Miia           makstud    345967   1-2 päeva      Pärnu mnt 5
