@@ -20,5 +20,6 @@ Kogus   toode        Hind       värv
 4      kella        10eurot     valge
 
 
- tellimus   hind  Kliendi nimi    makseviis   tel nr   kohale toomine  aadress
- 2x kella    20     Miia           makstud    345967   1-2 päeva      Pärnu mnt 5
+ tellimus   hind  Kliendi nimi    makseviis      tel nr    kohale toomine   aadress
+ 2x kella    20     Miia           makstud       345967    1-2 päeva       Pärnu mnt 5
+ 2x prügikast 5     Piia       makstud kaardiga  5340778   1-4 päeva       Viljandi mnt 2
