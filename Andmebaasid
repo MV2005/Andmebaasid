@@ -34,7 +34,7 @@ ASCII
 UTF8
 
 data types - andmetüübid
-numbrid - int, double, numeric, tiny
+numbrid - int, double, numeric, tinyint
 string - char, text, varchar
 boolean - boolean
 null - NULLABLE pole päris tüüp
