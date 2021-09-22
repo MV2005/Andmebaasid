@@ -32,3 +32,10 @@ ERD - entity relationship diagram
 
 ASCII
 UTF8
+
+data types - andmetüübid
+numbrid - int, double, numeric, tiny
+string - char, text
+boolean - boolean
+null - NULLABLE pole päris tüüp
+
