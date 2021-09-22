@@ -36,7 +36,7 @@ UTF8
 data types - andmetüübid
     signed    int .2mlj +2mlj
     unsigned int 0-4milj
-numbrid - int, double, numeric, tinyint
+numbrid - int, double, numeric, tinyint, smallint
 string - char, text, varchar
 boolean - boolean
 null - NULLABLE pole päris tüüp
