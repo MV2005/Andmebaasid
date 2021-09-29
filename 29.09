@@ -2,6 +2,10 @@ Primary key
 Foreign key
 index
 
+CREATE TABLE
+ALTER TABLE
+INSERT INTO
+
 ÕiGE
 
 CREATE TABLE `Group`(
