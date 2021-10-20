@@ -2,3 +2,5 @@ SELECT Player.name, Last_Name, Group.name
 FROM Player
 LEFT JOIN Group ON Player.group_id = Group.id
 WHERE group_id = 4
+
+SELECT Player.name, Last_Name,`Group`.name FROM `Player` LEFT JOIN `Group` ON Player.group_id = `Group`.id WHERE group_id = 4
