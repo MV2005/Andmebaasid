@@ -4,3 +4,27 @@ LEFT JOIN Group ON Player.group_id = Group.id
 WHERE group_id = 4
 
 SELECT Player.name, Last_Name,`Group`.name FROM `Player` LEFT JOIN `Group` ON Player.group_id = `Group`.id WHERE group_id = 4
+
+
+-----------
+
+INSERT INTO Parent (name, Last_Name) VALUES (`Homeri paps`, `Garner`)
+
+INSERT INTO PlayerParent (player_id, parent_id) VALUES (1,1)
+
+INSTERT INTO Players ( firstname, Last_Name, group_id) VALUES
+
+--------------------------------
+
+ÕIGE
+
+
+INSERT INTO Parent (first_name, last_name) VALUES
+('Homer Isa','Garner'),
+('Alex Isa','Ayers'),
+('Elbert Isa','Zamora'),
+('Isiahc Isa','Burgess'),
+('Robby Isa','Nunez'),
+('Antwan Isa','Stark');
+
+INSERT INTO `PlayerParent` (`id`, `player_id`, `parent_id`) VALUES (NULL, '1', '1');
