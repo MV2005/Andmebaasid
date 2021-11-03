@@ -1,0 +1,25 @@
+SELECT price FROM products;
+SELECT price from name;
+FROM product
+ORDER by price,name
+ROUND(10,2)
+return
+
+SELECT price FROM products;
+SELECT ROUND(10, 2) AS price_per_kg;
+ORDER by price,name
+
+
+SELECT price FROM products;
+SELECT ROUND(10, 2) AS price_per_kg;
+ORDER by price,name
+
+ÕIGE
+
+SELECT name, weight, price, weight,
+CAST(ROUND(CAST(price /(weight / 1000) AS NUMERIC), 2) AS DOUBLE PRECISION)
+AS price_per_kg
+FROM products
+ORDER BY
+price_per_kg ASC,
+name ASC
