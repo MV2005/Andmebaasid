@@ -1,0 +1,1 @@
+SELECT* FROM `Player` LEFT JOIN `PlayerParent` ON player_id = `Player`.id LEFT JOIN `Parent` ON parent_id = `Parent`.id
