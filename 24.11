@@ -1,0 +1,16 @@
+for (let line of file) {
+    let name = "asd", serial = "12354654"
+    let sql = "("+ serial +","+name")";
+    fs.appendFile(`fail.txt`, sql)
+}
+
+
+-----------------------
+TEINE VARIANT
+
+let sql = "INSERT INTO table (serial, name) VALUES "
+for (let line of file) {
+    let name = "asd", serial = "1234564"
+    sql += "(´"+ serial +"`, `"+name+"`), \n";
+}
+fs.writeFile(`fail.txt`,sql)
