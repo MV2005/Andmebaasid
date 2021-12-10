@@ -1,0 +1,9 @@
+SELECT first_name, last_Name, `Group`.name
+FROM Player 
+LEFT JOIN Group ON Player.group_id=`Group`.id
+
+SELECT firstName, last_Name, `Group`.name
+FROM `Group`
+LEFT JOIN Player ON `Group`.id=Player.group_id
+WHERE `Group`.name="P2020"
+
