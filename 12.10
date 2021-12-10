@@ -1,0 +1,7 @@
+
+SELECT `Group`, COUNT(*) 
+FROM `Player`
+GROUP BY `Group`;
+
+
+LEFT JOIN Player ON `Group` = Player ON `Group`.Player.id
