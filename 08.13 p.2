@@ -1,0 +1,5 @@
+SELECT Group.name, 
+COUNT(Group.id) AS Mängijad
+FROM Player, Group
+WHERE Player.group_id = Group.id
+GROUP BY Group.name
